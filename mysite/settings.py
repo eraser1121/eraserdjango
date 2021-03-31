@@ -25,7 +25,7 @@ SECRET_KEY = '^!$ad$+9!jmo4zvts!ot69t*gy@+c80s_q2euri#ot)2()x5-*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com', 'eraser2111.pythonanywhere.com']
 
 
 # Application definition
