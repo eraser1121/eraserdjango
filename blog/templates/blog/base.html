@@ -15,19 +15,9 @@
 			<div class = "content container">
 				<div class = "row">
 					<div class = "col-md-8">
-						{% for post in posts %}
-							<div class = "post">
-								<div class = "date">
-									{{ post.published_date }}
-								</div>
-								<h1><a href="">{{ post.title }}</a></h1>
-								<p>{{ post.text|linebreaksbr }}</p>
-							</div>
-						{% endfor %}
-						<h1>Test Image</h1>
-						<img src="static/effel.jpg">
-						<h1>Test Video</h1>
-						<video src="static/video.mp4" controls></video>
+						{% block content %}
+						{% endblock %}
+
 					</div>
 				</div>
 			</div>
